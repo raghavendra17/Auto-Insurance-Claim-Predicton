@@ -1,1 +1,1 @@
-# Auto_Insurance_Claim_Predictor
+# Auto-Insurance-Claim-Predictor
