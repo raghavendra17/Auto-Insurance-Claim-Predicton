@@ -22,6 +22,11 @@ Contains the initial exploration of data like
 * Feature scaling-Standardization for all ordinal and interval columns 
 
 ## Modeling
-All Classification algorithms Like Logistic Regression,Support Vector Machines(Linear,Poly),KNN,Decision Trees,Random Forest,AdaBoost,XGBoost,GradientBoost
-are used
-Ensembling model like RandomForest and Bossting gave best results among all the algorithms
+* Classification algorithms Like 
+  * Logistic Regression
+  * Support Vector Machines(Linear,Poly)
+  * KNN
+  * Decision Trees
+  * Random Forest,
+  * AdaBoost,XGBoost,GradientBoost are used to build the model
+* Ensembling models like RandomForest and Boosting gave best results among all the algorithms used
