@@ -1,7 +1,7 @@
 # Auto-Insurance-Claim-Predictor
 Python ML project using scikit learn,pandas,numpy,matplotlib
 
-About Project:
+## Problem Statement:
 
 To Predicts the probability that a driver will initiate an auto insurance claim in the next year.
 
