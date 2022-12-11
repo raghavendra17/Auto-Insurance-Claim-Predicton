@@ -13,12 +13,13 @@ Affluent customer: Company can attract the good drivers if it is doing the fair 
 
 ## Exploratory Data Analysis
 Contains the initial exploration of data like 
-* finding the distribution of target variables
-* handling missing values
-* level of correlated variables
-* balancing the data using SMOTE 
-* one-hot encoding/dummification of the categorical variables
-* feature scaling
+* Finding the distribution of target variables
+* Handling missing values
+* Level of correlated variables
+* Data Visualization
+* Balancing the data using SMOTE 
+* One-hot encoding/dummification of the categorical variables
+* Feature scaling
 
 ## Modeling
 All Classification algorithms Like Logistic Regression,Support Vector Machines(Linear,Poly),KNN,Decision Trees,Random Forest,AdaBoost,XGBoost,GradientBoost
