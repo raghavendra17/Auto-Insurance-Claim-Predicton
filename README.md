@@ -15,11 +15,11 @@ Affluent customer: Company can attract the good drivers if it is doing the fair 
 Contains the initial exploration of data like 
 * Finding the distribution of target variables
 * Handling missing values
+* Inferences about continuous,ordinal,binary variables through Visualization
 * Level of correlated variables
-* Data Visualization
 * Balancing the data using SMOTE 
 * One-hot encoding/dummification of the categorical variables
-* Feature scaling
+* Feature scaling-Standardization for all ordinal and interval columns 
 
 ## Modeling
 All Classification algorithms Like Logistic Regression,Support Vector Machines(Linear,Poly),KNN,Decision Trees,Random Forest,AdaBoost,XGBoost,GradientBoost
