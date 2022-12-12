@@ -9,6 +9,8 @@ Most companies charge a flat premium to the customers irrespective of their risk
 
 Affluent customer: Company can attract the good drivers if it is doing the fair pricing. Loss ratio: Company can avoid specific customer/policies if they are at high risk of filing claim which in turn decrease loss ratio. Fair pricing: Company can charge the premium to the customers by their risk, and accurate prediction will allow them to tailor their prices further. Claim forecast: Claim is proportional to the number of risky customers, so company forecast the number of claims it could get next year which will help them to manage their fund better
 
+As per industry estimate 1% reduction in the claim can boost profit by 10%. So, through the ML model, we can identify and deny the insurance to the driver who will make a claim.  Thus, ensuring reduced claim outgo and increased profit.
+
 # Analysis Approach
 
 ## Exploratory Data Analysis
