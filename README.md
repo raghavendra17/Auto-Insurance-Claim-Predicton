@@ -31,4 +31,4 @@ Contains the initial exploration of data like
   * Decision Trees
   * Random Forest,
   * AdaBoost,XGBoost,GradientBoost are used to build the model
-* Ensembling models like RandomForest and Boosting gave best results among all the algorithms used
+* Ensembling models like Boosting and RandomForest gave the best results among all the algorithms used
