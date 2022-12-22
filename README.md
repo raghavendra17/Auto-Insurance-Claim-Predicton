@@ -31,4 +31,5 @@ Contains the initial exploration of data like
   * Decision Trees
   * Random Forest,
   * AdaBoost,XGBoost,GradientBoost are used to build the model
+* There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest
 * Ensembling models like Boosting and RandomForest gave the best results among all the algorithms used
