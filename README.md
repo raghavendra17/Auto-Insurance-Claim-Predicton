@@ -3,7 +3,7 @@ Python ML project using scikit learn,pandas,numpy,matplotlib
 
 ## Problem Statement:
 
-Build a Machine learning model to predict the probability that a owner will initiate an auto insurance claim in the next year.
+Build a Machine learning model to predict the probability that owner will initiate an auto insurance claim in the next year.
 
 Most companies charge a flat premium to the customers irrespective of their risk for filing an insurance claim. Inaccuracies in the insurance company’s claim predictions raise the cost of insurance for good drivers and reduce the price for bad ones. Our project will help the insurance company in following ways:
 
