@@ -1,5 +1,5 @@
 # Auto-Insurance-Claim-Predictor
-Python ML project using scikit learn,pandas,numpy,matplotlib
+Python ML project using scikitlearn,pandas,numpy,matplotlib
 
 ## Problem Statement:
 
