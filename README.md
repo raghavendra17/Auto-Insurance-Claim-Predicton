@@ -17,13 +17,13 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 Contains the initial exploration of data like 
 *   Load the Data into DataFrame
 *   Inference about the data
-*   Finding the distribution of target variables
+*   Check the distribution of target variables
 *   Split features into Categorical,Binary,Ordinal,Interval
-*   Handled Missing Values
-*   Found Outliers in continuous variables
+*   Found Outleirs in continuous variables and Handled Missing Values
+*   Found Outliers after filling missing values
 *   Dropped Id column
 *   Inferences about continuous,ordinal,binary variables through Visualization
-*   Level of Correlation for interval,ordinal 
+*   Level of Correlation for interval,ordinal features
 *   Keep only 1 column for columns having high correlation
 *   Balanced the data by OverSampling(Smote algorithm)
 *   One-hot encoding/dummification of the categorical variables
