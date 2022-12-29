@@ -30,14 +30,16 @@ Contains the initial exploration of data like
 *   Saved CSV Files for data with and without Encoding
 
 ## Modeling
+* Split the data into training and testing using train_test_split
+* Standardize the data by applying fit on training data and transform on train and test data
 * Classification algorithms Like 
   * Logistic Regression
   * Support Vector Machines(Linear,Poly)
   * KNN
   * Decision Trees
   * Random Forest,
-  * AdaBoost,XGBoost,GradientBoost are used to build the model
+  * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPClassifier
 * There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest on OneHotEncoding
 * Feature Importance from the model is also displayed
-* Ensembling models like Boosting and RandomForest gave the best results among all the algorithms used
+* Ensembling models like RandomForest and Boosting gave the best results among all the algorithms used
