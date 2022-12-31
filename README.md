@@ -32,7 +32,7 @@ Contains the initial exploration of data like
 ## Modeling
 * Split the data into training and testing using train_test_split
 * Standardize the data by applying fit on training data and transform on train and test data
-* Classification algorithms Like 
+* Classification algorithms shown below are used to build model 
   * Logistic Regression
   * Support Vector Machines(Linear,Poly)
   * KNN
