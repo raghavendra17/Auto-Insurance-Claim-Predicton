@@ -40,6 +40,7 @@ Contains the initial exploration of data like
   * Random Forest,
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPClassifier
-* There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest on OneHotEncoding
+* Metrics like accuracy,precision_score,recall_score,f1_score,confusion matrix,classification report are displayed
+* Same results are observed for tree based models with and without OneHotEncoding categorical features while results improved for rest on OneHotEncoding
 * Feature Importance from the model is also displayed
 * Ensembling models like RandomForest and Boosting gave the best results among all the algorithms used
