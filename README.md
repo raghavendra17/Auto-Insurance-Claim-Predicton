@@ -42,7 +42,13 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
   * Random Forest,
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPClassifier
-* Metrics like accuracy,precision_score,recall_score,f1_score,confusion matrix,classification report are displayed
+* Metrics 
+  * accuracy 
+  * precision_score
+  * recall_score
+  * f1_score
+  * confusion matrix
+  * classification report are displayed
 * Same results are observed for tree based models with and without OneHotEncoding categorical features while results improved for rest on OneHotEncoding
 * Feature Importance from the model is also displayed
 * Ensembling models like RandomForest and Boosting gave the best results among all the algorithms used
