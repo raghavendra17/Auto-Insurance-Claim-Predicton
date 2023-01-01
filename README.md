@@ -20,9 +20,9 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 *   Split features into Categorical,Binary,Ordinal,Interval
 *   Found Outleirs in continuous variables 
 * ### Feature Engineering
-*   Handling Missing Values
-*   Found Outliers after filling missing values
-*   Dropped Id column
+   * Handling Missing Values
+   * Found Outliers after filling missing values
+   * Dropped Id column
 * ### Data Visualization
    * Inferences about continuous,ordinal,binary variables through Visualization
    * Level of Correlation for interval,ordinal features
