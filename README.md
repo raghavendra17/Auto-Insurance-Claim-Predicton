@@ -29,6 +29,7 @@ Contains the initial exploration of data like
 *   Level of Correlation for interval,ordinal features
 *   Keep only 1 column for columns having high correlation
 
+##
 *   Balanced the data by OverSampling(Smote algorithm)
 *   One-hot encoding/dummification of the categorical variables
 *   Saved CSV Files for data with and without Encoding
