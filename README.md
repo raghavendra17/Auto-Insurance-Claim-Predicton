@@ -17,12 +17,11 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 *   Load the Data into DataFrame
 *   Inference about the data
 *   Check the distribution of target variables
-    ### Feature Engineering
-    *   Split features into Categorical,Binary,Ordinal,Interval
-    *   Found Outleirs in continuous variables 
-    *   Handling Missing Values
-    *   Found Outliers after filling missing values
-    *   Dropped Id column
+*   Split features into Categorical,Binary,Ordinal,Interval
+*   Found Outleirs in continuous variables 
+*   Handling Missing Values
+*   Found Outliers after filling missing values
+*   Dropped Id column
 
 ## Exploratory Data Analysis
 Contains the initial exploration of data like 
