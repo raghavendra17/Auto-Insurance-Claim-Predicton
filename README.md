@@ -22,7 +22,7 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 *   Handling Missing Values
 *   Found Outliers after filling missing values
 *   Dropped Id column
-   ### Exploratory Data Analysis
+* ### Exploratory Data Analysis
    * Inferences about continuous,ordinal,binary variables through Visualization
    * Level of Correlation for interval,ordinal features
    * Keep only 1 column for columns having high correlation
