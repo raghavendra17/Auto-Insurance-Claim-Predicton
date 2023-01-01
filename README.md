@@ -19,6 +19,7 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 *   Check the distribution of target variables
 *   Split features into Categorical,Binary,Ordinal,Interval
 *   Found Outleirs in continuous variables 
+* ### Feature Engineering
 *   Handling Missing Values
 *   Found Outliers after filling missing values
 *   Dropped Id column
