@@ -13,18 +13,22 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 
 # Analysis Approach
 
-## Exploratory Data Analysis
-Contains the initial exploration of data like 
+## Data Pre-Processing
 *   Load the Data into DataFrame
 *   Inference about the data
 *   Check the distribution of target variables
 *   Split features into Categorical,Binary,Ordinal,Interval
-*   Found Outleirs in continuous variables and Handled Missing Values
+*   Found Outleirs in continuous variables 
+*   Handling Missing Values
 *   Found Outliers after filling missing values
 *   Dropped Id column
+
+## Exploratory Data Analysis
+Contains the initial exploration of data like 
 *   Inferences about continuous,ordinal,binary variables through Visualization
 *   Level of Correlation for interval,ordinal features
 *   Keep only 1 column for columns having high correlation
+
 *   Balanced the data by OverSampling(Smote algorithm)
 *   One-hot encoding/dummification of the categorical variables
 *   Saved CSV Files for data with and without Encoding
