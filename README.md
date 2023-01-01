@@ -14,16 +14,16 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 # Analysis Approach
 
 ## Data Pre-Processing
-*   Load the Data into DataFrame
-*   Inference about the data
-*   Check the distribution of target variables
-*   Split features into Categorical,Binary,Ordinal,Interval
-*   Found Outleirs in continuous variables 
-* ### Feature Engineering
+* Load the Data into DataFrame
+* Inference about the data
+* Check the distribution of target variables
+* Split features into Categorical,Binary,Ordinal,Interval
+* Found Outleirs in continuous variables 
+* Feature Engineering
    * Handling Missing Values
    * Found Outliers after filling missing values
    * Dropped Id column
-* ### Data Visualization
+* Data Visualization
    * Inferences about continuous,ordinal,binary variables through Visualization
    * Level of Correlation for interval,ordinal features
    * Keep only 1 column for columns having high correlation
