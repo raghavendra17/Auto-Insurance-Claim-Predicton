@@ -13,31 +13,43 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
 
 # Analysis Approach
 
-## Exploratory Data Analysis
-Contains the initial exploration of data like 
-*   Load the Data into DataFrame
-*   Inference about the data
-*   Finding the distribution of target variables
-*   Split features into Categorical,Binary,Ordinal,Interval
-*   Handled Missing Values
-*   Found Outliers in continuous variables
-*   Dropped Id column
-*   Inferences about continuous,ordinal,binary variables through Visualization
-*   Level of Correlation for interval,ordinal 
-*   Keep only 1 column for columns having high correlation
+## Data Pre-Processing
+* Load the Data into DataFrame
+* Inference about the data
+* Check the distribution of target variables
+* Split features into Categorical,Binary,Ordinal,Interval
+* Found Outleirs in continuous variables 
+* Feature Engineering
+   * Handling Missing Values
+   * Found Outliers after filling missing values
+   * Dropped Id column
+* Data Visualization
+   * Inferences about continuous,ordinal,binary variables through Visualization
+   * Level of Correlation for interval,ordinal features
+   * Keep only 1 column for columns having high correlation
 *   Balanced the data by OverSampling(Smote algorithm)
 *   One-hot encoding/dummification of the categorical variables
 *   Saved CSV Files for data with and without Encoding
 
 ## Modeling
-* Classification algorithms Like 
+* Split the data into training and testing using train_test_split
+* Standardize the data by applying fit on training data and transform on train and test data
+* Classification algorithms shown below are used to build model 
   * Logistic Regression
   * Support Vector Machines(Linear,Poly)
   * KNN
   * Decision Trees
   * Random Forest,
-  * AdaBoost,XGBoost,GradientBoost are used to build the model
+  * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPClassifier
-* There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest on OneHotEncoding
-* Feature Importance from the model is also displayed
-* Ensembling models like Boosting and RandomForest gave the best results among all the algorithms used
+* Model Evaluation Metrics 
+  * accuracy 
+  * precision_score
+  * recall_score
+  * f1_score
+  * confusion matrix
+  * classification report are displayed
+* Model Selection
+  * Same results are observed for tree based models with and without OneHotEncoding categorical features while results improved for rest on OneHotEncoding
+  * Feature Importance from the model is also displayed
+  * Ensembling models like RandomForest and Boosting gave the best results among all the algorithms used
