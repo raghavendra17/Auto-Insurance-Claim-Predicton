@@ -24,12 +24,18 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
    * Found Outliers after filling missing values
    * Dropped Id column
 * Data Visualization
-   * Inferences about continuous,ordinal,binary variables through Visualization
-   * Level of Correlation for interval,ordinal features
-   * Keep only 1 column for columns having high correlation
-*   Balanced the data by OverSampling(Smote algorithm)
-*   One-hot encoding/dummification of the categorical variables
-*   Saved CSV Files for data with and without Encoding
+  * Inferences about continuous,ordinal,binary variables through Visualization
+  * Univariate
+    * Distribution of continuous variables - Histogram, Distplot, boxplot
+  * Bivariate
+    * Categorical variables vs count for ordinal features - barplot
+    * Categorical variables vs count vs target distribution - barplot
+  * Multivariate
+    * Correlation Analysis - Level of Correlation for interval,ordinal features
+* Keep only 1 column for columns having high correlation
+* Balanced the data by OverSampling(Smote algorithm)
+* One-hot encoding/dummification of the categorical variables
+* Saved CSV Files for data with and without Encoding
 
 ## Modeling
 * Split the data into training and testing using train_test_split
