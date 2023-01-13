@@ -44,6 +44,7 @@ As per industry estimate 1% reduction in the claim can boost profit by 10%. So, 
   * Logistic Regression
   * Support Vector Machines(Linear,Poly)
   * KNN
+  * Gausiian Naive Bayes
   * Decision Trees
   * Random Forest,
   * XGBoost,AdaBoost,GradientBoost are used to build the model
